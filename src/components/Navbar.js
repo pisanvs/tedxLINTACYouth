@@ -15,7 +15,7 @@ export default function Navbar({ home = true }) {
 
   return (
     <nav className="backdrop-saturate-180 border-b-1 sticky top-0 z-50 flex h-[75px] w-screen border-white border-opacity-100 bg-black/30 backdrop-blur-xl lg:px-9">
-      <div className="absolute left-0 top-0 z-50 flex h-[75px] w-11/12 flex-row items-center justify-between px-6 lg:justify-around">
+      <div className="absolute left-0 top-0 z-50 flex h-[75px] w-screen flex-row items-center justify-between px-6 lg:justify-around">
         <span>
           <Link href="/">
             <Image
