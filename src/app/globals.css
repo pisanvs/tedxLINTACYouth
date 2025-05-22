@@ -15,8 +15,8 @@ html {
 }
 
 :root {
-  --clr-red: #da0400;
-  --clr-redText: #fa0400;
+  --clr-red: #EB0028;
+  --clr-redText: #EB0028;
   --clr-tedRed: #EB0028;
 }
 
@@ -85,7 +85,7 @@ body {
   position: relative;
 }
 .text-shape::after {
-  @apply absolute left-0 top-0 z-[-1] h-[85%] w-1/2 translate-x-1/2 transform rounded-[2px] bg-red;
+  @apply absolute left-0 top-0 z-[-1] h-[85%] w-1/2 translate-x-1/2 transform rounded-[2px] bg-tedRed;
   content: "";
 }
 @media (max-width: 1024px) {

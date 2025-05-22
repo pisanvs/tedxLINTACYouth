@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         tedRed: "#EB0028",
-        red: "#DA0400",
-        redText: "#FA0400",
+        red: "#EB0028",
+        redText: "#EB0028",
         deepGrey: "#1B1B1B",
         grey: "#585858",
       },
