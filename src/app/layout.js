@@ -2,7 +2,7 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import PoppinsFont from "@/utils/PoppinsFont";
 import "./globals.css";
 import { DictProvider } from "@/locales/dict";
-import { Head } from 'next/document';
+import Head from 'next/head';
 import Script from 'next/script'
 
 export const metadata = {
