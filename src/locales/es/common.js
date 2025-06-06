@@ -6,8 +6,8 @@ const dict = {
     team: "Equipo",
     cta: "Save your spot...",
   },
-  dateTitle: "XX/XX/25",
-  dateSubtitle: "fecha por definir",
+  dateTitle: "23/08/25",
+  dateSubtitle: "Save the date!",
   aboutTheme1: "El tema de <RedText>TEDxLINTAC <b>Youth</b></RedText>, <i>\"All Limits; Beyond Limits\" (Todos los límites; Más allá de los límites), &nbsp;</i> invita a <b>explorar las fronteras que enfrentamos</b> en varios aspectos de la vida y cómo podemos trascenderlas. Ya sean físicas, mentales, sociales o tecnológicas, los límites configuran nuestra percepción del mundo, desafiándonos a adaptarnos, innovar y crecer. Al examinar estos límites, no solo reconocemos las limitaciones que definen nuestras experiencias, sino que también descubrimos las oportunidades que presentan. <b>Nuestro objetivo es generar conversaciones poderosas sobre lo que significa enfrentar los límites</b>, ya sea como obstáculos, motivadores o incluso catalizadores de creatividad. Creemos profundamente que ir más allá de estas fronteras es lo que nuestra comunidad necesita.",
   aboutTheme2: "A través de este tema, buscamos cultivar un sentido de curiosidad e inspiración. Este año, <RedText>TEDxLINTAC <b>Youth</b></RedText> se trata de compartir ideas que nos animen a repensar lo posible, explorando historias de resiliencia, innovación e imaginación.",
   aboutUs: {
