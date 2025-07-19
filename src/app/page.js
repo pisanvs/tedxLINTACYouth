@@ -11,6 +11,7 @@ import AboutUs from "@/components/AboutUs";
 import Tickets from "@/components/Tickets";
 import Performer from "@/components/Performer";
 import ParallaxStars from "@/components/ParallaxStars";
+import NavActionButton from "@/components/utility/GetTicketsButton";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
         <br />
         <br />
         <AboutTheme />
+        <div className="flex justify-center mx-auto w-full scale-150">
+          <NavActionButton className="z-50 absolute" />
+        </div>
         <br />
         <Speakers />
         <br />
