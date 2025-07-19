@@ -79,7 +79,7 @@ export default function Speaker() {
 
   return (
     <section
-      className="my-8 w-full overflow-x-hidden px-20 pl-[150px] pr-0 pt-[80px] max-md:p-10 max-sm:p-0 lg:pr-0 text-lg"
+      className="my-8 w-full overflow-x-hidden overflow-y-hidden px-20 pl-[150px] pr-0 pt-[80px] max-md:p-10 max-sm:p-0 lg:pr-0 text-lg"
       id="speakers"
     >
       <Heading>Speakers</Heading>
@@ -118,10 +118,10 @@ export default function Speaker() {
         </div>
 
         {/*Image and navigation components*/}
-        <div className="flex max-h-full w-[65%] flex-col justify-end gap-10 pl-5 max-lg:w-[60%] max-md:w-[100%] max-md:pl-0 max-sm:gap-6">
+        <div className="flex max-h-full w-[65%] flex-col justify-end gap-10 pl-5 max-lg:w-[60%] max-md:w-[100%] max-md:pl-0 max-sm:gap-6 max-sm:bg-transparent">
           {/*Image card container*/}
           <div
-            className="scroll-snap-x scroll-snap-start hide-scrollbar last-scroll-padd flex w-full items-end overflow-y-hidden overflow-x-scroll"
+            className="scroll-snap-x scroll-snap-start hide-scrollbar last-scroll-padd flex w-full items-end overflow-y-hidden overflow-x-scroll pt-9"
             ref={cardsScrollElm}
           >
             {Speaker_data.map((speaker, index) => {
@@ -134,15 +134,15 @@ export default function Speaker() {
                       cardsScrollElm.current.children[index]
                     );
                   }}
-                  className="cards-container relative flex aspect-[0.8] w-[400px] flex-[0_0_auto] select-none items-end justify-center overflow-visible p-5 max-sm:w-[262px]"
+                  className="cards-container relative flex aspect-[0.8] w-[400px] flex-[0_0_auto] select-none items-end justify-center overflow-visible p-7 pt-9 max-sm:w-[262px]"
                 >
                   <div className="sub-card-cont relative flex h-full w-full origin-bottom justify-center">
                     <div className="card-bg-container absolute left-0 top-0 h-full w-full overflow-hidden rounded-[15px]">
                       <Image
                         src={cardBg}
-                        width={300}
+                        width={200}
                         objectPosition={"75% 20%"}
-                        className="h-full w-full object-cover object-center tran"
+                        className="h-full w-full top-16 object-cover object-center tran"
                         alt="Cards background"
                       />
                     </div>
@@ -152,7 +152,7 @@ export default function Speaker() {
                           src={speaker.image || null}
                           width={270}
                           height={500}
-                          className="absolute bottom-0 min-w-[100%] select-none"
+                          className="absolute bottom-0 min-w-[100%] select-none card-img transition-all translate-y-5"
                           alt={speaker.name}
                           loading="eager"
                         /> :

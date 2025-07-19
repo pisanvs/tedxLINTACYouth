@@ -10,6 +10,7 @@ export default function cardsScrollLogic(
   [].slice.call(cardContElm.children).forEach(function (ele, index) {
     //!!The inactive cards are scaled down, so for accurate checking; we only scale a child element thus keeping the parent same size;
     let cardCont = ele.getElementsByClassName("sub-card-cont")[0];
+    let cardImg = cardCont.getElementsByClassName("card-img")[0];
     //Check for bounds; if with in bound set the currIndexCard;
     if (
       Math.abs(
@@ -18,8 +19,9 @@ export default function cardsScrollLogic(
       ) < 30
     ) {
       currCardIndex.current = index;
-      cardCont.style.transform = "scale(1)";
+      cardCont.style.transform = "scale(0.9)";
       cardCont.style.transitionDelay = "0s";
+      cardImg.style.transform = "scale(1.2) translateY(-20px)";
       //When the cards are scrolled; scroll the left container to the same index;
       vrScrollIntoView(leftScroll.current, leftScroll.current.children[index]);
     }
