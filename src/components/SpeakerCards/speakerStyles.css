@@ -46,17 +46,17 @@
 
 .sub-card-cont {
   transition:
-    transform 0.1s,
+    transform 0.5s,
     box-shadow 0.1s,
     filter 0.5s;
 }
 
 .sub-card-cont .card-bg-container {
-  transition: filter 0.5s;
+  transition: filter 1s;
 }
 
 .cards-container.active .sub-card-cont .card-bg-container {
-  filter: blur(8px);
+  filter: none;
 }
 
 /**Style for animating the detail container name*/

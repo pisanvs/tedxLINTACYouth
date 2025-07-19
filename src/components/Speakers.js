@@ -13,7 +13,7 @@ import {
 } from "./SpeakerCards/Support";
 import { Speaker_data } from "@/data/SpeakersData.js";
 import "@/components/SpeakerCards/speakerStyles.css";
-import cardBg from "../../public/backgrounds/speakers.png";
+import cardBg from "../../public/backgrounds/TEDxLINTACBG.png";
 import Heading from "@/components/utility/Heading";
 
 export default function Speaker() {
@@ -106,7 +106,7 @@ export default function Speaker() {
                     <SplitText text={speaker.name} />
                   </h2>
                   <br />
-                  <div className="flex items-center opacity-95">
+                  <div className="flex items-center opacity-80">
                     <p className="font-poppins font-light leading-[137.5%] max-sm:leading-[130%]">
                       {speaker.description}
                     </p>
@@ -134,15 +134,15 @@ export default function Speaker() {
                       cardsScrollElm.current.children[index]
                     );
                   }}
-                  className="cards-container relative flex aspect-[0.75] w-[380px] flex-[0_0_auto] select-none items-end justify-center overflow-visible p-5 max-sm:w-[250px]"
+                  className="cards-container relative flex aspect-[0.8] w-[400px] flex-[0_0_auto] select-none items-end justify-center overflow-visible p-5 max-sm:w-[262px]"
                 >
                   <div className="sub-card-cont relative flex h-full w-full origin-bottom justify-center">
                     <div className="card-bg-container absolute left-0 top-0 h-full w-full overflow-hidden rounded-[15px]">
                       <Image
                         src={cardBg}
                         width={300}
-                        objectPosition={"50% 10%"}
-                        className="h-full w-full object-cover object-center"
+                        objectPosition={"75% 20%"}
+                        className="h-full w-full object-cover object-center tran"
                         alt="Cards background"
                       />
                     </div>
@@ -150,7 +150,9 @@ export default function Speaker() {
                       speaker.image ?
                         <Image
                           src={speaker.image || null}
-                          className="absolute bottom-0 min-w-[140%] select-none"
+                          width={270}
+                          height={500}
+                          className="absolute bottom-0 min-w-[100%] select-none"
                           alt={speaker.name}
                           loading="eager"
                         /> :
@@ -162,7 +164,6 @@ export default function Speaker() {
             })}
           </div>
           {/* Navigation */}
-          {/* TODO: REPLACE DISABLED */}
           <div className="flex items-center gap-8 pl-[20px] ">
             <button
               onClick={() => {
@@ -175,7 +176,7 @@ export default function Speaker() {
                 );
               }}
               aria-label="Scroll left button"
-              disabled
+
             >
               <LeftArrow />
             </button>
@@ -190,7 +191,6 @@ export default function Speaker() {
                 );
               }}
               aria-label="Scroll right button"
-              disabled  
             >
               <RightArrow />
             </button>
