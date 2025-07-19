@@ -19,6 +19,9 @@ export default function Home() {
       <ParallaxStars>
         <Navbar />
         <LandingPage />
+        <div className="lg:hidden justify-center mx-auto w-full scale-150 flex">
+          <NavActionButton className="z-50 absolute" />
+        </div>
         <br />
         <br />
         <br />

@@ -20,7 +20,7 @@ export default function NavActionButton() {
                 }
             `}</style>
             <button
-                className="w-max select-none rounded-[3px] font-semibold text-white mr-8 gradient-btn"
+                className="w-max select-none rounded-[3px] font-semibold text-white gradient-btn"
                 disabled={false}
             >
                 <Link
