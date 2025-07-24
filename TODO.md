@@ -1,6 +1,3 @@
 # 
 
-TODO: BIGGER CTA
 TODO: WAIT DONT GO
-TODO: IMPORTANT: CREATE SPEAKER PROFILES !!!!!!
-I18N: Translate speaker profiles
