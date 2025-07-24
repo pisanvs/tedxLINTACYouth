@@ -24,7 +24,7 @@ export default function NavActionButton() {
                 disabled={false}
             >
                 <Link
-                    href="https://lu.ma/gpm7usxy"
+                    href="https://lu.ma/gpm7usxy?utm_source=tedxlintacwebsite"
                     className="flex h-full w-full justify-center px-4 py-2 lg:py-1"
                 >
                     {dictionary.navbar.cta}
