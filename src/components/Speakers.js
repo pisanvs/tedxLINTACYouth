@@ -22,7 +22,7 @@ export default function Speaker() {
     cardsScrollElm = useRef(null),
     cardsParentElm = useRef(null),
     lastScrollTime = useRef(null),
-    scrollCoolDownTime = 400, //in ms
+    scrollCoolDownTime = 100, //in ms
     parentHasMouseOver = useRef(false);
 
   useEffect(() => {

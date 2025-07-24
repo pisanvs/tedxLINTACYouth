@@ -38,8 +38,8 @@ export default function cardsScrollLogic(
               index,
               currCardIndex.current,
               Speaker_data.length,
-              0.9,
-              0.7
+              0.8,
+              0.6
             )
           : mapRange(index, currCardIndex.current, 0, 0.9, 0.7);
 
@@ -50,9 +50,9 @@ export default function cardsScrollLogic(
               currCardIndex.current,
               Speaker_data.length,
               0.1,
-              0.5
+              0.2
             )
-          : mapRange(index, currCardIndex.current, 0, 0.1, 0.5);
+          : mapRange(index, currCardIndex.current, 0, 0.1, 0.2);
 
       cardCont.style.transitionDelay = delay + "s";
 
