@@ -23,7 +23,7 @@ const dict = {
     },
     tedxLINTAC: {
       heading: "TEDxLINTAC Youth",
-      text: "TEDxLINTAC Youth, hosted by Lincoln International Academy in Lo Barnechea, Chile, invites participants to explore this year's theme, 'All Limits; Beyond Limits.' Set for 2025, the event aims to inspire curiosity and a fresh perspective on pushing boundaries in diverse fields, from science and technology to art and social impact. Targeting the youth, TEDxLINTAC Youth brings together a group of 100 young leaders, thought leaders, and community members from LINTAC and neighboring schools for an inspiring exchange of ideas. With powerful talks from speakers in various disciplines, this event promotes dialogue and reflection, encouraging attendees to imagine and engage with new possibilities."
+      text: "TEDxLINTAC Youth, hosted by Lincoln International Academy in Lo Barnechea, Chile, invites participants to explore this year's theme, 'All Limits; Beyond Limits.' Set for August 2025, the event aims to inspire curiosity and a fresh perspective on pushing boundaries in diverse fields, from science and technology to art and social impact. Targeting the youth, TEDxLINTAC Youth brings together a group of 100 young leaders, thought leaders, and community members from LINTAC and neighboring schools for an inspiring exchange of ideas. With powerful talks from speakers in various disciplines, this event promotes dialogue and reflection, encouraging attendees to imagine and engage with new possibilities."
     },
   },
   teamThanks: "This initiative would not have been possible without the hard work of our team members. ❤️",
