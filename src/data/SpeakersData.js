@@ -36,5 +36,20 @@ export const Speaker_data = [
     "Alexandra Tiñaco",
     "Alexandra no habla desde el talento innato ni desde la comodidad, sino desde la experiencia de haber construido una nueva versión de sí misma, paso a paso. Con sensibilidad, claridad y una mirada introspectiva, comparte cómo reinventarse es a veces la única forma de avanzar.",
     "/speakers/AT.png"
-  )
+  ),
+  new Speaker(
+    "???",
+    "Speaker misterioso...",
+    "/speakers/anon.png"
+  ),
+  new Speaker(
+    "???",
+    "Speaker misterioso...",
+    "/speakers/anon.png"
+  ),
+  new Speaker(
+    "???",
+    "Speaker misterioso...",
+    "/speakers/anon.png"
+  ),
 ];
