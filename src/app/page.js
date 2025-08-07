@@ -12,6 +12,7 @@ import Tickets from "@/components/Tickets";
 import Performer from "@/components/Performer";
 import ParallaxStars from "@/components/ParallaxStars";
 import NavActionButton from "@/components/utility/GetTicketsButton";
+import Sponsors from "@/components/Sponsors/Sponsors";
 
 export default function Home() {
   return (
@@ -36,6 +37,8 @@ export default function Home() {
         {/*<Tickets />*/}
         <AboutUs />
         {/*<Highlights />*/}
+        <br />
+        <Sponsors />
         <br />
         <MeetUs />
         <br />
