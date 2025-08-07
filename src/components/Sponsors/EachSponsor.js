@@ -7,9 +7,9 @@ const EachSponsor = ({ sponsor, id, setSponsorIndex, setPopupOpen }) => {
     setPopupOpen(true);
   };
   return (
-    <div
+    <a
       className="group aspect-square w-[100px] cursor-pointer"
-      onClick={setIndex}
+      href={sponsor.website}
     >
       <Image
         src={sponsor.image || null}
@@ -18,7 +18,7 @@ const EachSponsor = ({ sponsor, id, setSponsorIndex, setPopupOpen }) => {
         height={200}
         width={200}
       />
-    </div>
+    </a>
   );
 };
 
