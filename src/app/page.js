@@ -32,13 +32,13 @@ export default function Home() {
         </div>
         <br />
         <Speakers />
+        <Sponsors />
         <br />
         {/*<Performer />*/}
         {/*<Tickets />*/}
         <AboutUs />
         {/*<Highlights />*/}
         <br />
-        <Sponsors />
         <br />
         <MeetUs />
         <br />

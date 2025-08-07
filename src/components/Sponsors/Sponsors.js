@@ -13,7 +13,7 @@ export default function Sponsors() {
   const [popupOpen, setPopupOpen] = useState(false);
   return (
     <Container>
-      <section className="mx-[4%]">
+      <section id="sponsors" className="mx-[4%]">
         <Heading>our sponsors</Heading>
         <div className="flex select-none flex-wrap items-center justify-center gap-x-16 gap-y-6 py-8 md:px-[5%]">
           {SponsorData.map((sponsor, index) => (
