@@ -23,11 +23,6 @@ export const Speaker_data = [
     "/speakers/MH.png"
   ),
   new Speaker(
-    "Jesu Lara",
-    "Destacar entre la gente no siempre es facil, con empatia, alegria y constante resiliencia describimos a Jesu. Comparte una historia marcada por el amor y la perdida. Con esta charla, cumple una promesa silenciosa para su familia y nos invita a mirar mas alla del diagnostico.",
-    "/speakers/ML.png"
-  ),
-  new Speaker(
     "Catalina Latorre",
     "Entre el debate, el volley y el liderazgo, aprendió a lidiar con la exigencia constante. En su charla, cuestiona lo que nos enseñaron sobre la perfección — y propone otra forma de verla.",
     "/speakers/CL.png"
@@ -38,9 +33,9 @@ export const Speaker_data = [
     "/speakers/AT.png"
   ),
   new Speaker(
-    "???",
-    "Speaker misterioso...",
-    "/speakers/anon.png"
+    "Mario Ponce",
+    "Geómetra, profesor de matemáticas y líder de las iniciativas matemáticas más grandes del país, hoy vicerrector académico en la Pontificia Universidad Católica. Con su charla, nos invita a romper el mito de la matemática como un mundo frío, lógico y determinista, para descubrir su esencia humana: un lenguaje que va más allá de los números, que refleja nuestra complejidad, incertidumbre y belleza.",
+    "/speakers/MP.png"
   ),
   new Speaker(
     "???",
