@@ -38,13 +38,13 @@ export const Speaker_data = [
     "/speakers/MP.png"
   ),
   new Speaker(
-    "???",
-    "Speaker misterioso...",
-    "/speakers/anon.png"
+    "Pablo Nuñez",
+    "¿Qué pasaría si el trauma no fuera una herida que nos limita, sino una semilla que nos transforma? Tras 16 años inmerso en el mundo corporativo, Pablo decidió dar un paso al costado y explorar una perspectiva diferente sobre lo que significa vivir con nuestras cicatrices emocionales. Nos propone una idea simple pero poderosa: aprender a escuchar al trauma, no para temerle, sino para encontrar en él un camino hacia la transformación.",
+    "/speakers/PN.png"
   ),
   new Speaker(
-    "???",
-    "Speaker misterioso...",
-    "/speakers/anon.png"
+    "Pancho Saavedra",
+    "Ha pasado más de un año desde aquel incidente que sacudió su vida, y Pancho llega a TEDxLINTAC Youth para compartir no solo lo que vivió, sino lo que le cambió para siempre. Esa experiencia profunda le abrió los ojos al verdadero valor del trabajo en equipo, mostrándole cómo la conexión auténtica entre personas puede generar un impacto real y duradero.",
+    "/speakers/PS.png"
   ),
 ];
