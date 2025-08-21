@@ -46,5 +46,5 @@ export const Speaker_data = [
     "Pancho Saavedra",
     "Ha pasado más de un año desde aquel incidente que sacudió su vida, y Pancho llega a TEDxLINTAC Youth para compartir no solo lo que vivió, sino lo que le cambió para siempre. Esa experiencia profunda le abrió los ojos al verdadero valor del trabajo en equipo, mostrándole cómo la conexión auténtica entre personas puede generar un impacto real y duradero.",
     "/speakers/PS.png"
-  ),
+  )
 ];

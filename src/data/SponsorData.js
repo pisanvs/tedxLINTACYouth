@@ -16,9 +16,9 @@ export const SponsorData = [
   new Sponsor(
     "R&G Consultoría",
     "Logo R&G",
-    "https://rygconsultoria.cl/",
+    "#",
     ryg,
-    "Consultora Líder en auditoría, contabilidad, y servicios laborales"
+    ""
   ),
   new Sponsor(
     "Publicis Groupe Chile", 
