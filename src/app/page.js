@@ -19,6 +19,19 @@ export default function Home() {
     <main>
       <ParallaxStars>
         <Navbar />
+        <div className="flex flex-col items-center justify-center py-12 px-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-white">Watch Our Stream</h2>
+          <div className="w-full max-w-4xl aspect-video">
+            <iframe 
+              className="w-full h-full rounded-lg shadow-2xl" 
+              src="https://www.youtube.com/embed/_33SEC2rIII?si=1H5mekh1qvI9ombs" 
+              title="YouTube video player" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerPolicy="strict-origin-when-cross-origin" 
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
         <LandingPage />
         <div className="lg:hidden justify-center mx-auto w-full scale-150 flex">
           <NavActionButton className="z-50 absolute" />
