@@ -32,6 +32,9 @@ export default function Home() {
             ></iframe>
           </div>
         </div>
+        <div className="lg:hidden justify-center mx-auto w-full scale-150 flex">
+          <NavActionButton className="z-50 absolute" />
+        </div>
         <LandingPage />
         <div className="lg:hidden justify-center mx-auto w-full scale-150 flex">
           <NavActionButton className="z-50 absolute" />
